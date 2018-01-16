@@ -1,6 +1,6 @@
 {
   "name": "vuex-cognito",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A Vue.js Vuex module for authentication using Amazon AWS Cognito forked from https://github.com/kopterio/vue-auth-cognito",
   "main": "lib/index.js",
   "scripts": {
