@@ -1,3 +1,4 @@
+
 import * as types from './mutation-types';
 
 export default {
@@ -9,5 +10,11 @@ export default {
   },
   [types.ATTRIBUTES](state, payload) {
     state.user.attributes = payload;
+  },
+  [types.COGNITOUSER](state, payload) {
+    state.cognitoUser = payload;
+  },
+  [types.REMOVECOGNITOUSER](state) {
+    state.cognitoUser = null;
   },
 };
